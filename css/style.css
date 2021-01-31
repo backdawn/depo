@@ -1,0 +1,198 @@
+﻿@chatset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+html{height: 100%}
+
+body{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	color: #000000;
+	font-family: "Segoe UI", Arial, sans-serif;
+  	font-size: 1em;
+  	line-height: 135%;
+  	float: left;
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+
+}
+a:hover{
+	color: #00008B;
+}
+
+a, a:hover{
+	-webkit-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+	-o-transition: all.6s ease;
+	transition: all.6s ease;
+}
+
+p{
+	padding: 1%;
+}
+
+
+.h3{
+	margin: 0% 0% 0% 1%;
+}
+
+
+/*Стили для шапки*/
+
+header{
+	width: 98%;
+	float: left;
+	padding: 1%;
+	background-color: #FAFAFA;
+	border-bottom: 2px solid silver;
+	position: fixed;
+}
+
+
+
+header #structureLink{
+	width: 14%;
+	float: left;
+	text-align: left;
+	font-size: 1.5em;
+}
+
+header #characteristicLink{
+	width: 14%;
+	float: left;
+	text-align: center;
+	font-size: 1.5em; 
+}
+header #mapLink{
+	width: 14%;
+	float: left;
+	text-align: right;
+	font-size: 1.5em; 
+}
+header #logoLink{
+	width: 14%;
+	float: left;
+	text-align: center;
+}
+header #superiorsLink{
+	width: 14%;
+	float: left;
+	text-align: left;
+	font-size: 1.5em; 
+}
+header #photoLink{
+	width: 14%;
+	float: left;
+	text-align: center;
+	font-size: 1.5em; 
+}
+header #connectionLink{
+	width: 14%;
+	float: left;
+	text-align: right;
+	font-size: 1.5em; 
+}
+
+/*Стили для Structure*/
+
+body #superiorstxt1{
+	width: 15%;
+	float: left;
+	text-align: center;
+	font-size: 130%;
+	margin-left: 8%;
+}
+
+body #superiorstxt2{
+	width: 15%;
+	float: right;
+	text-align: center;
+	font-size: 130%;
+	margin-left: 9%;
+}
+
+.figcaption{
+	font-weight: bold;
+	float: right;
+}
+
+
+.txt{
+	font-size: 70%;
+	color: #696969;
+}
+
+
+.blockleft{
+	font-size: 90%;
+	font-weight: bold;
+	text-align: left;
+	width: 12%;
+	float: left;
+	border: 2px solid black;
+	border-right: none;
+	line-height: 200%;
+	margin-left: 1%;
+}
+
+
+.blockright{
+	font-size: 90%;
+	font-weight: normal;
+	text-align: left;
+	width: 26%;
+	float: left;
+	border: 2px solid black;
+	border-left: none;
+	line-height: 200%;
+	padding-left: 2%;
+}
+
+.bigletter{
+	color: #008080;
+	font-size: 2em;
+	margin-left: 2%;
+}
+
+.indent{
+	padding-right: 1%;
+}
+
+
+/*Стили для footer*/
+
+footer{
+	width: 98%;
+	float: left;
+	padding: 1%;
+	background-color: #fafafa;
+	border-top: 2px solid silver;
+	margin-top: 10px; 
+}
+
+footer #social{
+	float: left;
+	width: 50%;
+}
+footer #rights{
+	float: right;
+	width: 50%;
+	text-align: right;
+	font-size: 110%;
+}
+footer #address{
+	float: left;
+	width: 100%;
+	text-align: left;
+	font-weight: bold;
+	font-size: 90%;
+}
+
+ 
